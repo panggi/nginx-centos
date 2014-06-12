@@ -5,7 +5,7 @@
 template "/etc/yum.repos.d/nginx.repo" do
   owner "root"
   group "root"
-  more "0644"
+  mode "0644"
   source "nginx.repo.erb"
 end
 
